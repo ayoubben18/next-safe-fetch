@@ -1,6 +1,7 @@
 # next-safe-fetch
 
 Type-safe actions with middleware support for TypeScript applications.
+[text](https://github.com/ayoubben18/next-safe-fetch)https://github.com/ayoubben18/next-safe-fetch
 
 ## Installation
 
