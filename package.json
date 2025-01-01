@@ -10,6 +10,9 @@
     "test:watch": "jest --watch",
     "prepublishOnly": "npm run test && npm run build"
   },
+  "repository": {
+    "url": "https://github.com/ayoubben18/next-safe-fetch"
+  },
   "keywords": [
     "typescript",
     "server-actions",
