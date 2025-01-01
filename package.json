@@ -1,0 +1,38 @@
+{
+  "name": "next-safe-fetch",
+  "version": "1.0.3",
+  "description": "Type-safe server actions with middleware support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "server-actions",
+    "middleware",
+    "validation",
+    "nextjs",
+    "nextjs-server-actions",
+    "nextjs-server-actions-middleware",
+    "nextjs-server-actions-validation"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "zod": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "22.9.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "5.6.3",
+    "zod": "^3.22.4"
+  }
+}
