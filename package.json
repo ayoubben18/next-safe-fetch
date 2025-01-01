@@ -1,6 +1,6 @@
 {
   "name": "next-safe-fetch",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Type-safe server actions with middleware support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
