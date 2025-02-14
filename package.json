@@ -11,13 +11,8 @@
     "prepublish": "npm run test && npm run build",
     "release": "semantic-release"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ayoubben18/next-safe-fetch.git"
-  },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "keywords": [
     "typescript",
